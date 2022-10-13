@@ -1,0 +1,11 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeStride.Windows", "PokeStride.Windows\PokeStride.Windows.csproj", "{570D1D8B-7C36-4DF5-B05E-11FF58645BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeStride", "PokeStride\PokeStride.csproj", "{F9675F71-FC34-43F0-9426-EB976AB42138}"
+EndProject
+Global
+EndGlobal
