@@ -10,6 +10,7 @@ Hierarchy:
         - ref!! c51edf54-6f42-4a37-b62d-4b5f80bb556a
         - ref!! 34147b2b-e57f-449b-bd4c-d208914a484e
         - ref!! 6a9b5d4b-a0d2-4975-b0a3-bdc3cd1a38d6
+        - ref!! da064e54-4ee3-4c98-9b00-616c237d479d
         - ref!! 77ac33b5-534c-47d3-aad3-a4df7a91bacd
     Parts:
         -   Entity:
@@ -111,3 +112,18 @@ Hierarchy:
                                 ComputeTransmittance: false
                                 BiasParameters: {}
                         Intensity: 20.0
+        -   Entity:
+                Id: da064e54-4ee3-4c98-9b00-616c237d479d
+                Name: Page
+                Components:
+                    916eff2beb99ce9653f7dd624abe0307: !TransformComponent
+                        Id: 6f419343-d610-41d7-aaba-59a35209e1d9
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    884e274fad4c968c5e93b30790cbd5d7: !UIComponent
+                        Id: 5b2c2684-73d7-4510-a99f-0257ec6b03e9
+                        Page: 86aa9f31-b6cf-429e-869c-5e46f37a7c7f:Page
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
