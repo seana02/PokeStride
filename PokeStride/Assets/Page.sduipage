@@ -13,13 +13,14 @@ Hierarchy:
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
                 DrawLayerNumber: 2
-                Width: 418.0
-                Height: 112.0
+                Width: 319.0
+                Height: 65.0
                 VerticalAlignment: Bottom
-                Margin: {Left: 294.0, Right: 288.0, Bottom: 76.0}
+                Margin: {Left: 334.73862, Right: 346.26135, Bottom: 144.0}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
+                Name: playButton
                 Content: !TextBlock ref!! 9a7e57d3-7216-4d81-a7e8-08b1003721a8
                 PressedImage: !SpriteFromSheet
                     Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
@@ -32,13 +33,15 @@ Hierarchy:
         -   UIElement: !Grid
                 Id: 4ca4c94c-0025-4a64-beb4-ba58ae41e638
                 DependencyProperties: {}
-                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                BackgroundColor: {R: 197, G: 204, B: 162, A: 255}
                 Margin: {}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
                 Children:
-                    2369f3e39371c92af91a116584b354e1: !Button ref!! 2b94975d-8c8a-4b9c-b44a-7d886bf801b9
+                    3e9317c321aefa12202721ff53e631fd: !ImageElement ref!! ef5ce05c-93bd-42b3-b5e5-430244d02220
+                    47a6859666e5ccbf65808f75a2f82fc8: !Button ref!! 2b94975d-8c8a-4b9c-b44a-7d886bf801b9
+                    ce8f51e4e7fe5b3caf7d2af481bec229: !TextBlock ref!! d5439658-80a0-4e63-80bd-e9f01940f612
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}
@@ -46,8 +49,8 @@ Hierarchy:
                 Id: 9a7e57d3-7216-4d81-a7e8-08b1003721a8
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
-                Width: 396.85028
-                Height: 67.65625
+                Width: 271.92517
+                Height: 36.65625
                 HorizontalAlignment: Center
                 VerticalAlignment: Center
                 Margin: {}
@@ -56,5 +59,36 @@ Hierarchy:
                 MaximumDepth: 3.4028235E+38
                 Text: Click to Play
                 Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
-                TextSize: 50.0
+                TextSize: 35.0
                 TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: d5439658-80a0-4e63-80bd-e9f01940f612
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 459.00003
+                Height: 77.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Top
+                Margin: {Left: 133.73862, Top: 83.0, Right: 107.26135}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: POKESTRIDE
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 75.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: ef5ce05c-93bd-42b3-b5e5-430244d02220
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 3
+                Width: 724.97437
+                Height: 375.13208
+                Margin: {Left: 132.76425, Top: 296.934, Right: 142.26135, Bottom: 327.93396}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromTexture
+                    Texture: 3992bd3b-2c40-45fd-9514-fc912cace2c6:illustration
+                    Center: {X: 0.0, Y: 0.0}
+                Color: {R: 255, G: 255, B: 255, A: 255}
