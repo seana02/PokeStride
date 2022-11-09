@@ -11,6 +11,7 @@ Hierarchy:
         - ref!! 34147b2b-e57f-449b-bd4c-d208914a484e
         - ref!! 6a9b5d4b-a0d2-4975-b0a3-bdc3cd1a38d6
         - ref!! da064e54-4ee3-4c98-9b00-616c237d479d
+        - ref!! f6414ad4-09ef-4c79-976d-6a4c11c15904
         - ref!! 77ac33b5-534c-47d3-aad3-a4df7a91bacd
     Parts:
         -   Entity:
@@ -146,3 +147,18 @@ Hierarchy:
                             Texture: 185ea531-d3f6-417b-9f85-2ce24a8b744c:Textures/grassPatch
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: f6414ad4-09ef-4c79-976d-6a4c11c15904
+                Name: Page_2
+                Components:
+                    5438b0b6005a291aebf1e372511f2306: !TransformComponent
+                        Id: 6fc6beef-1dc5-4320-89f2-e177269bab03
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c6954b15ede0804cd7a4dda9378d91ac: !UIComponent
+                        Id: 60c25797-cfd4-4e04-96b6-69831629e8da
+                        Page: e6125eb3-2bc8-492e-93ec-39d73d4721a8:Page_2
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
