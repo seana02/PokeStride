@@ -89,6 +89,6 @@ Hierarchy:
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
                 Source: !SpriteFromTexture
-                    Texture: 3992bd3b-2c40-45fd-9514-fc912cace2c6:illustration
+                    Texture: e3a4c43c-ffc4-4906-8d9a-83723c07daf4:illustration
                     Center: {X: 0.0, Y: 0.0}
                 Color: {R: 255, G: 255, B: 255, A: 255}

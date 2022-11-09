@@ -1,7 +1,7 @@
 !Texture
-Id: 3992bd3b-2c40-45fd-9514-fc912cace2c6
+Id: e3a4c43c-ffc4-4906-8d9a-83723c07daf4
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
-Source: !file ../../../images/illustration.jpg
+Source: !file ../../images/illustration.jpg
 Type: !ColorTextureType
     ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
