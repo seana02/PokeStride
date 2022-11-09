@@ -8,6 +8,51 @@ Hierarchy:
     RootParts:
         - !Grid ref!! 79831666-87bf-428c-bcb0-13ad49aa1a1c
     Parts:
+        -   UIElement: !ImageElement
+                Id: 1a8679c6-5e1e-41f2-b6c1-0a0dfb9c7cee
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.90016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 289.70013, Top: 264.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: 1a8780b8-fe4d-4079-9501-829c4e3a17d3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.90016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 383.70013, Top: 264.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: 3b8dd132-94ee-4a84-bf75-673c6ce6433e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.90016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 289.70013, Top: 181.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
         -   UIElement: !Grid
                 Id: 79831666-87bf-428c-bcb0-13ad49aa1a1c
                 DependencyProperties: {}
@@ -16,7 +61,90 @@ Hierarchy:
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
-                Children: {}
+                Children:
+                    f09c021f932b84f26001b325336476b1: !ImageElement ref!! 91adf31a-5e48-444c-ae6c-8a697be4f4fb
+                    8acf974a576ad46a8f64b9efab1aeccd: !ImageElement ref!! cac5c90f-7c7e-4548-9cd9-fa36fbdea324
+                    a43c4e5bf2a372df6f9afa4a214d7509: !ImageElement ref!! 3b8dd132-94ee-4a84-bf75-673c6ce6433e
+                    d385c414fde0064f3d8271e81230f218: !ImageElement ref!! cd49bf88-09ef-41fa-8554-278158d46439
+                    1a24f23a360bc4727807e46ac7780ac2: !ImageElement ref!! c0e414cc-a383-4e3e-9f64-f5f5ee820b2a
+                    5dbf40662e3f9717f639c26c3a7777c2: !ImageElement ref!! 8587e8e9-3965-4047-b240-7f46ddd24cad
+                    80744f70b337ce3f4ba7f3a0953fae53: !ImageElement ref!! 1a8679c6-5e1e-41f2-b6c1-0a0dfb9c7cee
+                    2cc67e10a4a5cb14275eb808d641c818: !ImageElement ref!! 1a8780b8-fe4d-4079-9501-829c4e3a17d3
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: 8587e8e9-3965-4047-b240-7f46ddd24cad
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.90016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 190.70012, Top: 264.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: 91adf31a-5e48-444c-ae6c-8a697be4f4fb
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 74.20016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 94.7001, Top: 181.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: c0e414cc-a383-4e3e-9f64-f5f5ee820b2a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.90016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 94.7001, Top: 264.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: cac5c90f-7c7e-4548-9cd9-fa36fbdea324
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.90016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 190.70012, Top: 181.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: cd49bf88-09ef-41fa-8554-278158d46439
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.90016
+                Height: 64.45469
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 383.70013, Top: 181.1366}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Source: !SpriteFromSheet
+                    Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}

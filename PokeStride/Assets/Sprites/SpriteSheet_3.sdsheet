@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: e0d7a63b-730b-4002-93ec-6d09af4dd91b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e119ea9b64a67e813c6b790170ee9da3:
+        Source: !file ../../../images/grassPatch.png
+        Name: grassPatch
+        TextureRegion: {X: 0, Y: 0, Width: 22, Height: 20}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
