@@ -144,7 +144,7 @@ Hierarchy:
                     49391a5599475623ad31810730a278d9: !SpriteComponent
                         Id: 3744ef13-123a-4f60-b525-d321e62a8743
                         SpriteProvider: !SpriteFromTexture
-                            Texture: 185ea531-d3f6-417b-9f85-2ce24a8b744c:Textures/grassPatch
+                            Texture: null
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Entity:

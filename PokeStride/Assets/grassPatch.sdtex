@@ -1,7 +1,7 @@
 !Texture
-Id: 185ea531-d3f6-417b-9f85-2ce24a8b744c
+Id: 28b801fc-b76e-44ed-9286-1deacb1795a2
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
-Source: !file ../grassPatch.png
+Source: !file ../../images/grassPatch.png
 Type: !ColorTextureType
     ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
