@@ -81,8 +81,7 @@ Hierarchy:
                         Position: {X: 0.0, Y: 3.0, Z: 3.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            b275b7800375317bf6516d13506efae1: ref!! 12119192-c22d-4b91-9bfe-ffd72013b3b0
+                        Children: {}
                     052aca2f93a42310901590d7a7f89f5f: !SpriteComponent
                         Id: 2fd9eea1-f21c-45ed-8d1c-8425cf56bdc4
                         SpriteProvider: !SpriteFromTexture
@@ -131,22 +130,6 @@ Hierarchy:
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                     4c05706bdea12a8d69dda8535adb332e: !PokeStride.PlayScript,PokeStride
                         Id: 2cad78de-7ee7-4604-bfc4-45ee0afc06de
-        -   Entity:
-                Id: e5089d70-582b-46d8-9080-6c645b7b8d5e
-                Name: grassPatch
-                Components:
-                    ba58a81ced308dce2b10eb3d7dce137f: !TransformComponent
-                        Id: 12119192-c22d-4b91-9bfe-ffd72013b3b0
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    49391a5599475623ad31810730a278d9: !SpriteComponent
-                        Id: 3744ef13-123a-4f60-b525-d321e62a8743
-                        SpriteProvider: !SpriteFromTexture
-                            Texture: null
-                            Center: {X: 0.0, Y: 0.0}
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Entity:
                 Id: f6414ad4-09ef-4c79-976d-6a4c11c15904
                 Name: Page_2

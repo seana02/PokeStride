@@ -1,11 +1,30 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 16
-VisualStudioVersion = 16.0.0.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 16.0.0.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeStride.Windows", "PokeStride.Windows\PokeStride.Windows.csproj", "{570D1D8B-7C36-4DF5-B05E-11FF58645BDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeStride.Windows", "PokeStride.Windows\PokeStride.Windows.csproj", "{570D1D8B-7C36-4DF5-B05E-11FF58645BDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeStride", "PokeStride\PokeStride.csproj", "{F9675F71-FC34-43F0-9426-EB976AB42138}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeStride", "PokeStride\PokeStride.csproj", "{F9675F71-FC34-43F0-9426-EB976AB42138}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{570D1D8B-7C36-4DF5-B05E-11FF58645BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570D1D8B-7C36-4DF5-B05E-11FF58645BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570D1D8B-7C36-4DF5-B05E-11FF58645BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570D1D8B-7C36-4DF5-B05E-11FF58645BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9675F71-FC34-43F0-9426-EB976AB42138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9675F71-FC34-43F0-9426-EB976AB42138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9675F71-FC34-43F0-9426-EB976AB42138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9675F71-FC34-43F0-9426-EB976AB42138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9C53C6-E7CA-412B-B560-38B685D8D7E8}
+	EndGlobalSection
 EndGlobal

@@ -21,8 +21,7 @@ namespace PokeStride
             UIPage page = Entity.Get<UIComponent>().Page;
             var rootElement = page.RootElement;
             var playButton = rootElement.FindVisualChildOfType<Button>("playButton");
-            int count = 0;
-            playButton.Click += delegate { count++;  Log.Info("I was clicked " + count + " times!"); };
+            playButton.Click += delegate { Entity.Get<UIComponent>().Page = Entity.Scene.Entities[5].Get<UIComponent>().Page; };
         }
 
         public override void Update()
