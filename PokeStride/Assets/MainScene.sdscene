@@ -12,6 +12,7 @@ Hierarchy:
         - ref!! 6a9b5d4b-a0d2-4975-b0a3-bdc3cd1a38d6
         - ref!! da064e54-4ee3-4c98-9b00-616c237d479d
         - ref!! f6414ad4-09ef-4c79-976d-6a4c11c15904
+        - ref!! 5b77d31e-3242-4843-9dd9-f4d5f0aea027
     Parts:
         -   Entity:
                 Id: 34147b2b-e57f-449b-bd4c-d208914a484e
@@ -30,6 +31,21 @@ Hierarchy:
                         Id: 50a5afaf-ad8d-4f25-86aa-ad9dd2589373
                         Type: !LightSkybox
                             Skybox: 650ce593-aade-4407-acd3-08efdc8d889b:Skybox
+        -   Entity:
+                Id: 5b77d31e-3242-4843-9dd9-f4d5f0aea027
+                Name: SpriteSheet
+                Components:
+                    39ff1894046ae1ab9051d5e95539c3d0: !TransformComponent
+                        Id: 0ba6acbf-6ea1-413c-b4de-c5e1e8f33084
+                        Position: {X: 1.0, Y: 2.0, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    990ecc69eb5d81e0b9dd6717e2830f03: !SpriteComponent
+                        Id: beb61b77-dd21-4349-bbb8-ca1f644c67d6
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: adbf1009-d7c5-4503-a682-071e18662e4f:SpriteSheet
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Entity:
                 Id: 67838ef3-f3d3-4613-a1a0-ee90d5f72f50
                 Name: Camera
@@ -129,5 +145,3 @@ Hierarchy:
                         Page: e6125eb3-2bc8-492e-93ec-39d73d4721a8:Page_2
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
-                    17693853d33239da5774c4b12758bb9c: !PokeStride.MovementScript,PokeStride
-                        Id: 2b4821cc-57ac-4360-99cd-194a53f65697
