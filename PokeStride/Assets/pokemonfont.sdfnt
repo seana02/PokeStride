@@ -1,0 +1,12 @@
+!SpriteFont
+Id: 47feee23-76f7-4514-8c22-393eeef64a6a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !FileFontProvider
+    Source: !file ../../font/Pokemon Solid.ttf
+FontType: !SignedDistanceFieldSpriteFontType
+    CharacterSet: null
+    CharacterRegions:
+        799498a41c1766bf6b5a0091b646552a:
+            Start: ' '
+            End: "\x7F"

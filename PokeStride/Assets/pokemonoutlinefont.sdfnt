@@ -1,0 +1,12 @@
+!SpriteFont
+Id: c4f74be7-87e5-49c9-aea2-6debc73d179a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !FileFontProvider
+    Source: !file ../../font/Pokemon Hollow.ttf
+FontType: !SignedDistanceFieldSpriteFontType
+    CharacterSet: null
+    CharacterRegions:
+        2ff338b2d5f6ccdc5d5b2263cd46add1:
+            Start: ' '
+            End: "\x7F"
