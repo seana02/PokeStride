@@ -1,0 +1,29 @@
+!SpriteSheet
+Id: adbf1009-d7c5-4503-a682-071e18662e4f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    58f491b690a90a4de164c25e1476afaa:
+        Source: !file Sprites/f_hgss_walk.png
+        Name: f_hgss_walk
+        TextureRegion: {X: 65, Y: 64, Width: 30, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    450da64e3f381f9cfdd82cbc689f54b6:
+        Source: !file Sprites/f_hgss_walk.png
+        Name: f_hgss_walk
+        TextureRegion: {X: 97, Y: 63, Width: 30, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1c4dfb509a23c8b73b21403a918abfbf:
+        Source: !file Sprites/f_hgss_walk.png
+        Name: f_hgss_walk
+        TextureRegion: {X: 33, Y: 64, Width: 30, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
