@@ -9,7 +9,21 @@ Sprites:
     58f491b690a90a4de164c25e1476afaa:
         Source: !file Sprites/f_hgss_walk.png
         Name: f_hgss_walk
-        TextureRegion: {X: 0, Y: 0, Width: 128, Height: 128}
+        TextureRegion: {X: 65, Y: 64, Width: 30, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    450da64e3f381f9cfdd82cbc689f54b6:
+        Source: !file Sprites/f_hgss_walk.png
+        Name: f_hgss_walk
+        TextureRegion: {X: 97, Y: 63, Width: 30, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1c4dfb509a23c8b73b21403a918abfbf:
+        Source: !file Sprites/f_hgss_walk.png
+        Name: f_hgss_walk
+        TextureRegion: {X: 33, Y: 64, Width: 30, Height: 32}
         Center: {X: 0.0, Y: 0.0}
         Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
         BorderColor: {R: 0, G: 0, B: 0, A: 0}

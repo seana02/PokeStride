@@ -115,9 +115,9 @@ Hierarchy:
                 Id: b1c8b599-e1bc-4e4b-9e60-b252cfb8f9fd
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
-                Width: 624.6366
-                Height: 624.6366
-                Margin: {Left: 190.70012, Top: 245.59128, Right: 184.66327, Bottom: 129.7721}
+                Width: 120.73734
+                Height: 128.7865
+                Margin: {Left: 454.60028, Top: 450.70813, Right: 424.66235, Bottom: 420.50537}
                 MaximumWidth: 3.4028235E+38
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
