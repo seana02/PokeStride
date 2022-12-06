@@ -11,7 +11,6 @@ Hierarchy:
         - ref!! 34147b2b-e57f-449b-bd4c-d208914a484e
         - ref!! 6a9b5d4b-a0d2-4975-b0a3-bdc3cd1a38d6
         - ref!! da064e54-4ee3-4c98-9b00-616c237d479d
-        - ref!! 77ac33b5-534c-47d3-aad3-a4df7a91bacd
     Parts:
         -   Entity:
                 Id: 34147b2b-e57f-449b-bd4c-d208914a484e
@@ -72,23 +71,6 @@ Hierarchy:
                         Model: 0fd2d7c5-41ce-42ff-be26-68384fe4fb73:Ground
                         Materials: {}
         -   Entity:
-                Id: 77ac33b5-534c-47d3-aad3-a4df7a91bacd
-                Name: Grid10x10
-                Components:
-                    abd6765b903b713273f31d502032a94b: !TransformComponent
-                        Id: 7fd03d31-2884-44b9-8fba-5dd3119c63fe
-                        Position: {X: 0.0, Y: 3.0, Z: 3.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            b275b7800375317bf6516d13506efae1: ref!! 12119192-c22d-4b91-9bfe-ffd72013b3b0
-                    052aca2f93a42310901590d7a7f89f5f: !SpriteComponent
-                        Id: 2fd9eea1-f21c-45ed-8d1c-8425cf56bdc4
-                        SpriteProvider: !SpriteFromTexture
-                            Texture: 3a858306-a00a-4a53-bb95-7f51a6522d6b:Textures/Grid10x10
-                            Center: {X: 0.0, Y: 0.0}
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-        -   Entity:
                 Id: c51edf54-6f42-4a37-b62d-4b5f80bb556a
                 Name: Directional light
                 Components:
@@ -130,19 +112,3 @@ Hierarchy:
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                     4c05706bdea12a8d69dda8535adb332e: !PokeStride.PlayScript,PokeStride
                         Id: 2cad78de-7ee7-4604-bfc4-45ee0afc06de
-        -   Entity:
-                Id: e5089d70-582b-46d8-9080-6c645b7b8d5e
-                Name: grassPatch
-                Components:
-                    ba58a81ced308dce2b10eb3d7dce137f: !TransformComponent
-                        Id: 12119192-c22d-4b91-9bfe-ffd72013b3b0
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    49391a5599475623ad31810730a278d9: !SpriteComponent
-                        Id: 3744ef13-123a-4f60-b525-d321e62a8743
-                        SpriteProvider: !SpriteFromTexture
-                            Texture: 185ea531-d3f6-417b-9f85-2ce24a8b744c:Textures/grassPatch
-                            Center: {X: 0.0, Y: 0.0}
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
