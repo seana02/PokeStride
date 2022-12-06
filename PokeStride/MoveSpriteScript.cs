@@ -39,11 +39,11 @@ namespace PokeStride
                 }
                 if (Input.IsKeyDown(Keys.Down))
                 {
-                    this.Entity.Transform.Position.Y -= yVelocity;
+                    this.Entity.Transform.Position.Z -= yVelocity;
                 }
                 if (Input.IsKeyDown(Keys.Up))
                 {
-                    this.Entity.Transform.Position.Y += yVelocity;
+                    this.Entity.Transform.Position.Z += yVelocity;
                 }
 
 

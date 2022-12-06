@@ -43,6 +43,12 @@ Hierarchy:
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
                 Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: characterSprite
+                Source: !SpriteFromSheet
+                    Sheet: adbf1009-d7c5-4503-a682-071e18662e4f:SpriteSheet
                 Color: {R: 255, G: 255, B: 255, A: 255}
         -   UIElement: !ImageElement
                 Id: 3b8dd132-94ee-4a84-bf75-673c6ce6433e
@@ -58,6 +64,15 @@ Hierarchy:
                 MaximumDepth: 3.4028235E+38
                 Source: !SpriteFromSheet
                     Sheet: e0d7a63b-730b-4002-93ec-6d09af4dd91b:Sprites/SpriteSheet_3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !ImageElement
+                Id: 7094b45a-2413-409f-863c-8118f897dd6f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
                 Color: {R: 255, G: 255, B: 255, A: 255}
         -   UIElement: !Grid
                 Id: 79831666-87bf-428c-bcb0-13ad49aa1a1c
@@ -77,6 +92,7 @@ Hierarchy:
                     80744f70b337ce3f4ba7f3a0953fae53: !ImageElement ref!! 1a8679c6-5e1e-41f2-b6c1-0a0dfb9c7cee
                     47a6205335c0b96563ed0a643df8b3e3: !ImageElement ref!! 390615f2-6acd-4d89-86a6-dc78d7f2066e
                     2cc67e10a4a5cb14275eb808d641c818: !ImageElement ref!! 1a8780b8-fe4d-4079-9501-829c4e3a17d3
+                    c148ca059bde9a24697060ada5767722: !ImageElement ref!! 7094b45a-2413-409f-863c-8118f897dd6f
                 RowDefinitions: {}
                 ColumnDefinitions: {}
                 LayerDefinitions: {}

@@ -12,7 +12,6 @@ Hierarchy:
         - ref!! 6a9b5d4b-a0d2-4975-b0a3-bdc3cd1a38d6
         - ref!! da064e54-4ee3-4c98-9b00-616c237d479d
         - ref!! f6414ad4-09ef-4c79-976d-6a4c11c15904
-        - ref!! 5b77d31e-3242-4843-9dd9-f4d5f0aea027
     Parts:
         -   Entity:
                 Id: 34147b2b-e57f-449b-bd4c-d208914a484e
@@ -64,15 +63,6 @@ Hierarchy:
                         UseCustomAspectRatio: true
                         AspectRatio: 1.0
                         Slot: 5b908111-5549-4060-81ab-36b27601181b
-                    8f984899de5b00721ec8a3b3639a1fca: !PokeStride.BasicCameraController,PokeStride
-                        Id: adfe67d4-69f8-40d6-b112-43ff27555f97
-                        Gamepad: false
-                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
-                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
-                        SpeedFactor: 5.0
-                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
-                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
-                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
         -   Entity:
                 Id: 6a9b5d4b-a0d2-4975-b0a3-bdc3cd1a38d6
                 Name: Ground
@@ -138,10 +128,13 @@ Hierarchy:
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
+                        Children:
+                            1d622147825767207688cb7280a96bbc: ref!! 0ba6acbf-6ea1-413c-b4de-c5e1e8f33084
                     c6954b15ede0804cd7a4dda9378d91ac: !UIComponent
                         Id: 60c25797-cfd4-4e04-96b6-69831629e8da
                         Enabled: false
                         Page: e6125eb3-2bc8-492e-93ec-39d73d4721a8:Page_2
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    a4b7c712b3dcce2b283cd8ec6afa7f87: !PokeStride.MovementScript,PokeStride
+                        Id: 53aeda3e-31eb-482e-a71d-b8717f8aedfa
