@@ -12,15 +12,32 @@ namespace PokeStride
     public class PlayerScript : SyncScript
     {
         // Declared public member fields and properties will show in the game studio
+        float velocity;
 
         public override void Start()
         {
-            // Initialization of the script.
+            velocity = 0.1f;
         }
 
         public override void Update()
         {
-            // Do stuff every new frame
-        }
+            if (Game.IsRunning) {
+                
+                if (Input.IsKeyDown(Keys.Left)) {
+                    this.Entity.Transform.Position.X -= velocity;
+                }
+                
+                if (Input.IsKeyDown(Keys.Right)) {
+                    this.Entity.Transform.Position.X += velocity;
+                }
+                
+                if (Input.IsKeyDown(Keys.Up)) {
+                    this.Entity.Transform.Position.Y += velocity;
+                }
+                
+                if (Input.IsKeyDown(Keys.Down)) {
+                    this.Entity.Transform.Position.Y -= velocity;
+                }
+        }}
     }
 }
