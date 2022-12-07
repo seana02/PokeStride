@@ -2,7 +2,8 @@
 Id: dbf5af73-1818-439d-8693-46f20e38b589
 SerializedVersion: {Stride: 3.1.0.1}
 Tags: []
-ChildrenIds: []
+ChildrenIds:
+    - 412bf7e9-f108-4825-8016-b483cf7d2693
 Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootParts:
@@ -35,8 +36,8 @@ Hierarchy:
                 Components:
                     2a0ceb6747ca7c71a94e71be14584e00: !TransformComponent
                         Id: a1aedd90-b91e-4683-8108-f83f7aca681c
-                        Position: {X: 0.0, Y: 3.0, Z: -30.0}
-                        Rotation: {X: 1.0, Y: -0.0, Z: -0.0, W: -4.371139E-08}
+                        Position: {X: 0.0, Y: 3.0, Z: 30.0}
+                        Rotation: {X: -4.371139E-08, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     bc5e64bd42f116432ed4c73134c5392c: !CameraComponent
@@ -47,15 +48,6 @@ Hierarchy:
                         UseCustomAspectRatio: true
                         AspectRatio: 1.0
                         Slot: 5b908111-5549-4060-81ab-36b27601181b
-                    8f984899de5b00721ec8a3b3639a1fca: !PokeStride.BasicCameraController,PokeStride
-                        Id: adfe67d4-69f8-40d6-b112-43ff27555f97
-                        Gamepad: false
-                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
-                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
-                        SpeedFactor: 5.0
-                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
-                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
-                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
         -   Entity:
                 Id: 6a9b5d4b-a0d2-4975-b0a3-bdc3cd1a38d6
                 Name: Ground
@@ -112,3 +104,4 @@ Hierarchy:
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                     4c05706bdea12a8d69dda8535adb332e: !PokeStride.PlayScript,PokeStride
                         Id: 2cad78de-7ee7-4604-bfc4-45ee0afc06de
+                        ChildSceneUrl: 412bf7e9-f108-4825-8016-b483cf7d2693:MapScene
